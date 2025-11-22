@@ -208,8 +208,9 @@ export default function Home() {
     <div>
       <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
       <ul className="space-y-2 text-sm">
-        <li>Email: support@canadaprocleaners.ca</li>
-        <li>Phone: (289)952 3004</li>
+        <li>Email: canadaprocleaners001@gmail.com
+</li>
+        <li>Phone: (289)-coming-soon</li>
         <li>GTA, Ontario</li>
       </ul>
     </div>
