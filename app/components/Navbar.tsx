@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -12,7 +13,11 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-white font-medium">
-          <a href="#services" className="hover:text-pink-300 transition">Services</a>
+        
+<Link href="/services" className="...">Services</Link>
+<Link href="/checklist" className="...">Checklist</Link>
+<Link href="/book" className="...">Book Now</Link>
+
           <a href="#how" className="hover:text-pink-300 transition">How It Works</a>
           <a href="#locations" className="hover:text-pink-300 transition">Locations</a>
           <a href="#contact" className="hover:text-pink-300 transition">Contact</a>
