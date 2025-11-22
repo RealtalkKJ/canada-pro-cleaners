@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "./components/Navbar";
 
 
@@ -23,9 +24,17 @@ export default function Home() {
               className="px-5 py-3 rounded-full text-black w-full sm:w-64"
             />
 
-            <button className="px-8 py-3 rounded-full bg-white text-blue-600 font-semibold shadow-lg hover:scale-105 transition">
-              Check Availability
-            </button>
+           import Link from "next/link";
+
+...
+
+<Link
+  href="/book"
+  className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-full shadow hover:scale-105 transition"
+>
+  Check Availability
+</Link>
+
           </div>
         </div>
       </main>
