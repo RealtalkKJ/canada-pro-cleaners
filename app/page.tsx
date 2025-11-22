@@ -1,6 +1,5 @@
-import Link from "next/link";
 import Navbar from "./components/Navbar";
-
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,9 +22,7 @@ export default function Home() {
               placeholder="Enter Postal Code"
               className="px-5 py-3 rounded-full text-black w-full sm:w-64"
             />
-
-           import Link from "next/link";
-
+ 
 ...
 
 <Link
@@ -34,6 +31,10 @@ export default function Home() {
 >
   Check Availability
 </Link>
+
+
+...
+
 
           </div>
         </div>
